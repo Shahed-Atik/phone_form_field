@@ -28,3 +28,4 @@
 .packages
 build/
 example/build
+/.fvm/
