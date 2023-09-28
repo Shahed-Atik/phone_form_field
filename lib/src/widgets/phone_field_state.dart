@@ -60,6 +60,7 @@ class PhoneFieldState extends State<PhoneField> {
           isFocused: controller.focusNode.hasFocus,
           isEmpty: _isEffectivelyEmpty(),
           child: TextField(
+            textDirection: TextDirection.ltr,
             focusNode: controller.focusNode,
             controller: controller.nationalNumberController,
             enabled: widget.enabled,
